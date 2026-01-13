@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Setech Morante</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.logo img {
+    max-width: 120px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.photo img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.whatsapp { background: #25D366; }
+.telegram { background: #0088cc; }
+.email { background: #555; }
+
+/* 🖥 Mejora para pantallas grandes */
+@media (min-width: 768px) {
+    .card {
+        max-width: 360px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="logo">
+        <img src="Logo.jpg" alt="Logo">
+    </div>
+
+    <div class="photo">
+        <img src="fotoedy.jpg" alt="Foto">
+    </div>
+
+    <h2>Edynson Morante</h2>
+    <p>Técnico en Soporte TI e IoT</p>
+
+    <a class="btn whatsapp" href="https://wa.me/51960762426">WhatsApp</a>
+    <a class="btn telegram" href="https://t.me/EdynsonMorante">Telegram</a>
+    <a class="btn email" href="mailto:edynsonraulmorantegarcia@gmail.com">Correo</a>
+</div>
+
+</body>
+</html>
